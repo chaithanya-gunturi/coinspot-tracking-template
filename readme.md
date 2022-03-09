@@ -29,6 +29,4 @@ To get started
 }
 ```
 
-- To execute the script, run the following
-
-> `node coinspot_client.js`
+- To execute the script, run the following `node coinspot_client.js`
