@@ -1,8 +1,12 @@
 # **Coinspot Tracking**
 
-This is used to track the crypto assets from Coinspot.
+This is used to track the value of crypto assets from Coinspot.
 
 To get started
+
+- Make sure you have node.js installed. (https://nodejs.dev/download/)
+
+- Run `npm install`
 
 - Update the following fields in `coinspot_client.js` (generate an API key from the API page after logging in to your account at: https://www.coinspot.com.au/my/api. )
 
@@ -10,8 +14,6 @@ To get started
   > key = (get this from coinspot)
 
 - update your investments in `investment.json` in json format (One block for each coin you own)
-
-Some basic Git commands are:
 
 ```
 {
@@ -24,6 +26,9 @@ Some basic Git commands are:
          "coin": "UNI",
          "amount":50000
       }
+}
 ```
 
-- to execute the script, you must have node.js installed and run `node coinspot_client.js`
+- To execute the script, run the following
+
+> `node coinspot_client.js`
