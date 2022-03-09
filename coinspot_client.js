@@ -68,8 +68,9 @@ var totalGain = Math.round(((currBalance - totalBalance)*100)/totalBalance)
 //logging the outputs
 console.table(o[a]);
 console.log("=================================================")
-console.log("Current balance is " + currBalance)
-console.log("Total balance is " + totalBalance)
-console.log("Gain is " + totalGain)
+console.log("Current balance is $ " + currBalance)
+console.log("Total balance is $ " + totalBalance)
+console.log("Total gain is $ " + Math.round((currBalance - totalBalance)))
+console.log("Gain is " + totalGain + "%")
 console.log("=================================================")
 });
