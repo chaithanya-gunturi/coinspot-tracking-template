@@ -1,0 +1,28 @@
+{
+   "invested":[
+      {
+         "coin": "ETH",
+         "amount":1000
+      },
+      {
+         "coin": "UNI",
+         "amount":1000
+      },
+      {
+         "coin": "SAND",
+         "amount":1000
+      },
+      {
+         "coin": "MANA",
+         "amount":1000
+      } ,
+      {
+         "coin": "DODGE",
+         "amount":1000
+      } ,
+      {
+         "coin": "SHIB",
+         "amount":1000
+      }   
+   ]
+}
